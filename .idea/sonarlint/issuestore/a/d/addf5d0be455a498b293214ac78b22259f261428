@@ -1,0 +1,6 @@
+
+
+java:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(­‘Ч8Эж®Ѓо.
+T
+java:S2589"7Remove this expression which always evaluates to "true"(ѕЭ”Ѓ8Эж®Ѓо.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(§фън8ЕЊ¬Ѓо.
