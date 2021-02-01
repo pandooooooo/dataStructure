@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450c409d-e220-4fb5-907a-5e855e8d57b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/DirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bfsDfs/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bfsDfs/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLeetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLeetcode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/ReverseLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SwapNodesInPairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/SwapNodesInPairs.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,15 +36,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UndirectedGraph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UndirectedGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="80" column="57" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
+            <state relative-caret-position="313">
+              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#689#698#0" expanded="true" />
-                <element signature="e#1475#1484#0" expanded="true" />
+                <element signature="e#720#729#0" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,25 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/DirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListCycle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListCycleII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListCycleII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -90,10 +72,11 @@
       <file leaf-file-name="TestLeetcode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestLeetcode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="345">
+              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#393#401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,17 +85,64 @@
       <file leaf-file-name="ConvertTitle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="-3">
+              <caret line="21" column="102" selection-start-line="21" selection-start-column="102" selection-end-line="21" selection-end-column="102" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDuplicatesFromSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesFromSortedArray.java">
+      <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bfsDfs/BinaryTreeLevelOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateParentheses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bfsDfs/GenerateParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1147">
+              <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1664#1681#0" expanded="true" />
+                <element signature="e#1773#1789#0" expanded="true" />
+                <element signature="e#1861#1869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[127]单词接龙.java" pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[127]单词接龙.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#1198#0" expanded="true" />
+                <element signature="n#!!doc;n#Solution#0" expanded="true" />
+                <element signature="e#1133#1197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +172,6 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestLeetcode.java" />
         <option value="/var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[283]移动零.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrayAndLinkedlist/ClimbStairs.java" />
         <option value="$PROJECT_DIR$/src/main/java/arrayAndLinkedlist/MoveZeroes.java" />
@@ -156,10 +185,14 @@
         <option value="$PROJECT_DIR$/src/main/java/array/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestConvertTitle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/DirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/breadthFirstSearch/BFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bfsDfs/BinaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bfsDfs/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestLeetcode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java" />
       </list>
     </option>
   </component>
@@ -201,7 +234,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="51" />
     <option name="y" value="23" />
     <option name="width" value="1330" />
@@ -257,7 +290,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bfsDfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +320,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConvertTitle">
+  <component name="RunManager" selected="TestNG.TestLeetcode.testLeetcode">
     <configuration name="ConvertTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tools.ConvertTitle" />
       <module name="dataStructure" />
@@ -434,10 +488,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestLeetcode.testLeetcode" />
         <item itemvalue="Application.ConvertTitle" />
         <item itemvalue="TestNG.TestConvertTitle.testConvertTitle" />
         <item itemvalue="TestNG.TestConvertTitle" />
-        <item itemvalue="TestNG.TestLeetcode.testLeetcode" />
       </list>
     </recent_temporary>
   </component>
@@ -454,51 +508,52 @@
       <workItem from="1609812606953" duration="238000" />
       <workItem from="1609812984215" duration="31000" />
       <workItem from="1609848557793" duration="5659000" />
-      <workItem from="1611821276464" duration="3091000" />
+      <workItem from="1611821276464" duration="12535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConvertTitle - 2021.01.07 at 10h 27m 11s.xml">
-      <configuration name="TestConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 22m 03s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.07 at 10h 27m 11s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 24m 01s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.07 at 10h 27m 19s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 25m 23s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.07 at 10h 29m 56s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 26m 07s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.07 at 13h 02m 58s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 28m 11s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.07 at 13h 03m 47s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 30m 04s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.07 at 13h 04m 26s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 17h 30m 24s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle - 2021.01.08 at 12h 02m 02s.xml">
-      <configuration name="TestConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 18h 00m 52s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.08 at 12h 02m 21s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 18h 00m 55s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestConvertTitle_testConvertTitle - 2021.01.08 at 12h 07m 15s.xml">
-      <configuration name="TestConvertTitle.testConvertTitle" configurationId="TestNG" />
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.01 at 19h 04m 37s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9019000" />
+    <option name="totallyTimeSpent" value="18463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -508,19 +563,18 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="leetcode" order="4" side_tool="true" weight="0.19985673" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990025" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -540,16 +594,39 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/TestLeetcode.java</url>
-          <line>16</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>wordList.get(j);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>'R'-'r'</expression-string>
         <language-id>JAVA</language-id>
@@ -623,6 +700,7 @@
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#393#401#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestLeetcode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesFromSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -700,13 +768,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestConvertTitle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -752,18 +813,109 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/DirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="80" column="57" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
+        <state relative-caret-position="313">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#689#698#0" expanded="true" />
-            <element signature="e#1475#1484#0" expanded="true" />
+            <element signature="e#720#729#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="21" column="102" selection-start-line="21" selection-start-column="102" selection-end-line="21" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[102]二叉树的层序遍历.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[22]括号生成.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="26" column="13" lean-forward="true" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[127]单词接龙.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1198#0" expanded="true" />
+            <element signature="n#!!doc;n#Solution#0" expanded="true" />
+            <element signature="e#1133#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bfsDfs/BinaryTreeLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bfsDfs/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestLeetcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#393#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0-sources.jar!/org/testng/internal/TestInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1147">
+          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1664#1681#0" expanded="true" />
+            <element signature="e#1773#1789#0" expanded="true" />
+            <element signature="e#1861#1869#0" expanded="true" />
           </folding>
         </state>
       </provider>

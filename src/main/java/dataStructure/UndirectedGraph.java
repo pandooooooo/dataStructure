@@ -11,10 +11,12 @@ import java.util.Queue;
 public class UndirectedGraph {
     private int v;
     private LinkedList<Integer> adj[];
+    private boolean found;
 
     public UndirectedGraph(int v){
         this.v = v;
         adj = new LinkedList[v];
+        found = false;
         for(int i=0;i<v;i++){
             adj[i] = new LinkedList<Integer>();
         }
@@ -26,31 +28,67 @@ public class UndirectedGraph {
     }
 
     public void bfs(int s, int t){
-        if(s==t)
+        if(s==t){
+            print();
             return;
+        }
 
         boolean[] visited = new boolean[v];
-        Queue<Integer> queue = new LinkedList<Integer>();
-        int[] prev = new int[v];
         visited[s] = true;
-        queue.add(s);
+        Queue<Integer> queue = new LinkedList<Integer>();
+        ((LinkedList<Integer>) queue).add(s);
+        int[] prev = new int[v];
         for(int i=0;i<v;i++){
             prev[i] = -1;
         }
 
-        while (!queue.isEmpty()){
+        while(!queue.isEmpty()){
             int w = queue.poll();
             for(int i=0;i<adj[w].size();i++){
                 int q = adj[w].get(i);
                 if(!visited[q]){
                     prev[q] = w;
-                    if(q==t)
+                    if(q==t){
+                        print();
                         return;
+                    }
                     visited[q] = true;
-                    queue.add(q);
+                    ((LinkedList<Integer>) queue).add(q);
                 }
             }
         }
+
+    }
+
+    public void dfs(int s, int t){
+        boolean[] visited = new boolean[v];
+        int[] prev = new int[v];
+        for(int i=0;i<v;i++){
+            prev[i] = -1;
+        }
+
+        recDfs(visited, prev, s, t);
+    }
+
+    private void recDfs(boolean[] visited, int[] prev, int w, int t) {
+        if(found)
+            return;
+
+        visited[w] = true;
+        if(w==t)
+            return;
+
+        for(int i=0;i<adj[w].size();i++){
+            int p = adj[w].get(i);
+            if(!visited[p]){
+                prev[p] = w;
+                recDfs(visited, prev, p, t);
+            }
+        }
+    }
+
+    public void print(){
+        System.out.println("End.");
     }
 
 }

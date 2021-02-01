@@ -13,12 +13,13 @@ public class ConvertTitle {
         Scanner in = new Scanner(System.in);
 
         while(flag){
-            String originInput = in.next();
+//            String originInput = in.next();
+//
+//            if(originInput.trim().toLowerCase().equals("exit")){
+//                break;
+//            }
 
-            if(originInput.trim().toLowerCase().equals("exit")){
-                break;
-            }
-
+            String originInput = "https://leetcode-cn.com/problems/binary-tree-level-order-traversal";
             convertTitle(originInput);
         }
     }

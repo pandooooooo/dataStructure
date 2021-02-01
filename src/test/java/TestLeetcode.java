@@ -1,5 +1,8 @@
-import array.MoveZeroes;
+import bfsDfs.WordLadder;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author liukx
@@ -9,10 +12,18 @@ import org.testng.annotations.Test;
 public class TestLeetcode {
     @Test
     public void testLeetcode(){
-        int[] nums = new int[]{0,1,0,0,2,3,4,0,5};
+        String beginWord = "hit";
+        String endWord = "cog";
+        List<String> wordList = new ArrayList<String>();
+        wordList.add("hot");
+        wordList.add("dot");
+        wordList.add("dog");
+        wordList.add("lot");
+        wordList.add("log");
+        wordList.add("cog");
 
-        MoveZeroes moveZeroes = new MoveZeroes();
-        moveZeroes.solution1(nums);
+        WordLadder wordLadder = new WordLadder();
+        int x = wordLadder.ladderLength(beginWord, endWord, wordList);
 
         System.out.println(1);
     }
