@@ -12,16 +12,19 @@ public class ConvertTitle {
         boolean flag = true;
         Scanner in = new Scanner(System.in);
 
-        while(flag){
+/*        while(flag){
 //            String originInput = in.next();
 //
 //            if(originInput.trim().toLowerCase().equals("exit")){
 //                break;
 //            }
 
-            String originInput = "https://leetcode-cn.com/problems/binary-tree-level-order-traversal";
+            String originInput = "https://leetcode-cn.com/problems/intersection-of-two-linked-lists/";
             convertTitle(originInput);
-        }
+        }*/
+
+        String originInput = "https://leetcode-cn.com/problems/intersection-of-two-linked-lists/";
+        convertTitle(originInput);
     }
 
     public static void convertTitle(String originInput){

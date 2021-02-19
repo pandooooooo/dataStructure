@@ -1,6 +1,8 @@
-import dataStructure.TreeNode;
+import hashMap.GroupAnagrams;
 import org.testng.annotations.Test;
-import tree.BinaryTreeLevelOrderTraversal;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author liukx
@@ -10,16 +12,20 @@ import tree.BinaryTreeLevelOrderTraversal;
 public class TestLeetcode {
     @Test
     public void testLeetcode(){
-        TreeNode node0 = new TreeNode(0);
-        TreeNode node1 = new TreeNode(1);
-        TreeNode node2 = new TreeNode(2);
-        TreeNode node3 = new TreeNode(3);
-        TreeNode node4 = new TreeNode(4, node0, node1);
-        TreeNode node5 = new TreeNode(5, node2, node4);
-        TreeNode node6 = new TreeNode(6, node3,node5);
+//        ListNode node1 = new ListNode(1);
+//        ListNode node2 = new ListNode(2, node1);
+//        ListNode node3 = new ListNode(3, node2);
+//        ListNode node4 = new ListNode(2, node3);
+//        ListNode node5 = new ListNode(1, node4);
+//
+//
+//        PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
+//        palindromeLinkedList.isPalindrome(node5);
 
-        BinaryTreeLevelOrderTraversal binaryTreeLevelOrderTraversal = new BinaryTreeLevelOrderTraversal();
-        binaryTreeLevelOrderTraversal.levelOrder(node6);
+        GroupAnagrams groupAnagrams = new GroupAnagrams();
+
+        Queue<Integer> queue = new LinkedList<>();
+        ((LinkedList<Integer>) queue).pop();
 
         System.out.println(1);
     }
