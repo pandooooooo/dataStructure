@@ -1,8 +1,5 @@
-import hashMap.GroupAnagrams;
+import array.MergeSortedArray;
 import org.testng.annotations.Test;
-
-import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @author liukx
@@ -12,20 +9,8 @@ import java.util.Queue;
 public class TestLeetcode {
     @Test
     public void testLeetcode(){
-//        ListNode node1 = new ListNode(1);
-//        ListNode node2 = new ListNode(2, node1);
-//        ListNode node3 = new ListNode(3, node2);
-//        ListNode node4 = new ListNode(2, node3);
-//        ListNode node5 = new ListNode(1, node4);
-//
-//
-//        PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
-//        palindromeLinkedList.isPalindrome(node5);
-
-        GroupAnagrams groupAnagrams = new GroupAnagrams();
-
-        Queue<Integer> queue = new LinkedList<>();
-        ((LinkedList<Integer>) queue).pop();
+        MergeSortedArray mergeSortedArray = new MergeSortedArray();
+        mergeSortedArray.merge(new int[]{1,3,7,8,0,0,0}, 7, new int[]{2,4,6}, 3);
 
         System.out.println(1);
     }
