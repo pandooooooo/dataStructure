@@ -1,5 +1,6 @@
+import dataStructure.TreeNode;
 import org.testng.annotations.Test;
-import string.ValidPalindrome;
+import tree.FlattenBinaryTreeToLinkedList;
 
 /**
  * @author liukx
@@ -9,9 +10,13 @@ import string.ValidPalindrome;
 public class TestLeetcode {
     @Test
     public void testLeetcode(){
-        ValidPalindrome validPalindrome = new ValidPalindrome();
-        validPalindrome.test(".,");
+        TreeNode node5 = new TreeNode(5);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node2 = new TreeNode(2, node3, node4);
+        TreeNode node1 = new TreeNode(1, node2, node5);
 
-        System.out.println(1);
+        FlattenBinaryTreeToLinkedList flattenBinaryTreeToLinkedList = new FlattenBinaryTreeToLinkedList();
+        flattenBinaryTreeToLinkedList.flatten(node1);
     }
 }

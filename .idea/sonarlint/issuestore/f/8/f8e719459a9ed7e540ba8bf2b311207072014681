@@ -1,0 +1,8 @@
+
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¾â–ä8–¹÷ñû.
+<	java:S131""Add a default case to this switch.(¶¤¾Å8³ö¥óû.
+Y
+java:S3518"9Make sure "num" can't be zero before doing this division.(©Í¤Öùÿÿÿÿ8„™¯óû.
+r	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì…ŠÚÿÿÿÿÿ
+x	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ù¦ð¢þÿÿÿÿ8³ö¥óû.
