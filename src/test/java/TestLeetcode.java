@@ -1,6 +1,6 @@
 import dataStructure.TreeNode;
 import org.testng.annotations.Test;
-import tree.FlattenBinaryTreeToLinkedList;
+import tree.DeleteNodeInABst;
 
 /**
  * @author liukx
@@ -16,7 +16,7 @@ public class TestLeetcode {
         TreeNode node2 = new TreeNode(2, node3, node4);
         TreeNode node1 = new TreeNode(1, node2, node5);
 
-        FlattenBinaryTreeToLinkedList flattenBinaryTreeToLinkedList = new FlattenBinaryTreeToLinkedList();
-        flattenBinaryTreeToLinkedList.flatten(node1);
+        DeleteNodeInABst deleteNodeInABst = new DeleteNodeInABst();
+        deleteNodeInABst.deleteNode(node1, 2);
     }
 }

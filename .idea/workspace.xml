@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="450c409d-e220-4fb5-907a-5e855e8d57b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/BalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/ConvertBinarySearchTreeToSortedDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/DeleteNodeInABst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/KthSmallestElementInABst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/MaximunWidthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/ValidateBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/051832940aefd1323edee3122b6581afba4ce310" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/051832940aefd1323edee3122b6581afba4ce310" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3ab2433b52265c726e7853ac41528f57e41ac547" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3ab2433b52265c726e7853ac41528f57e41ac547" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b83600cd0bc5c5d71a6b3159b8e5df3d9f6a448" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b83600cd0bc5c5d71a6b3159b8e5df3d9f6a448" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75c1e89b35844f92391d13a7bc0d4f03bcaaedd1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75c1e89b35844f92391d13a7bc0d4f03bcaaedd1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79cb4df6dc8221ee219465cca2d3c251d8121138" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79cb4df6dc8221ee219465cca2d3c251d8121138" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7adc9c45be322c04961bef020396d3c3ed155c32" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7adc9c45be322c04961bef020396d3c3ed155c32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d3bf1119c6a15be9e533890ba4d88b48ed73fb1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d3bf1119c6a15be9e533890ba4d88b48ed73fb1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/addf5d0be455a498b293214ac78b22259f261428" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/addf5d0be455a498b293214ac78b22259f261428" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8c48b186bbda58bcf6d95d6c9e47f3f8e95ac98" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8c48b186bbda58bcf6d95d6c9e47f3f8e95ac98" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5a642996e68d63289d0062f8ac2944ff8a58c1d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5a642996e68d63289d0062f8ac2944ff8a58c1d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestLeetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLeetcode.java" afterDir="false" />
     </list>
@@ -50,20 +41,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BalancedBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tree/BalancedBinaryTree.java">
+      <file leaf-file-name="DeleteNodeInABst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/DeleteNodeInABst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="175">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SymmetricTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tree/SymmetricTree.java">
+      <file leaf-file-name="[230]二叉搜索树中第K小的元素.java" pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[230]二叉搜索树中第K小的元素.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="387">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[剑指 Offer 36]二叉搜索树与双向链表.java" pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#1084#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertBinarySearchTreeToSortedDoublyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/ConvertBinarySearchTreeToSortedDoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthSmallestElementInABst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/KthSmallestElementInABst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximunWidthOfBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/MaximunWidthOfBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +101,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlattenBinaryTreeToLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tree/FlattenBinaryTreeToLinkedList.java">
+      <file leaf-file-name="[105]从前序与中序遍历序列构造二叉树.java" pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="202">
+              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructBinaryTreeFromPreorderAndInorderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeMaximumPathSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTreeMaximumPathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[124]二叉树中的最大路径和.java" pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[124]二叉树中的最大路径和.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#1064#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,21 +167,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/array/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesFromSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestConvertTitle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/DirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/breadthFirstSearch/BFS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/UndirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bfsDfs/BinaryTreeLevelOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bfsDfs/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/main/java/bfsDfs/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/NaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/linkedlist/DeleteNodeInALinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/SwapNodesInPairs.java" />
         <option value="$PROJECT_DIR$/src/main/java/linkedlist/MergeTwoSortedLists.java" />
@@ -153,8 +207,17 @@
         <option value="$PROJECT_DIR$/src/main/java/tree/symmetricTree.java" />
         <option value="/var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[101]对称二叉树.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/SymmetricTree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestLeetcode.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/FlattenBinaryTreeToLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/ValidateBinarySearchTree.java" />
+        <option value="/var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[450]删除二叉搜索树中的节点.java" />
+        <option value="$PROJECT_DIR$/src/main/java/linkedlist/DeleteNodeInALinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestLeetcode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/DeleteNodeInABst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/KthSmallestElementInABst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/ConvertBinarySearchTreeToSortedDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/MaximunWidthOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTreeMaximumPathSum.java" />
       </list>
     </option>
   </component>
@@ -540,20 +603,11 @@
       <workItem from="1609812984215" duration="31000" />
       <workItem from="1609848557793" duration="5659000" />
       <workItem from="1611821276464" duration="34353000" />
-      <workItem from="1613985435893" duration="8650000" />
+      <workItem from="1613985435893" duration="16705000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLeetcode_testLeetcode - 2021.02.20 at 15h 59m 53s.xml">
-      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLeetcode_testLeetcode - 2021.02.20 at 17h 45m 53s.xml">
-      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLeetcode_testLeetcode - 2021.02.20 at 17h 46m 31s.xml">
-      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestLeetcode_testLeetcode - 2021.02.20 at 17h 47m 20s.xml">
       <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
@@ -575,9 +629,18 @@
     <history-entry file="TestLeetcode_testLeetcode - 2021.02.23 at 17h 31m 53s.xml">
       <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.24 at 14h 41m 56s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.24 at 14h 42m 24s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLeetcode_testLeetcode - 2021.02.24 at 14h 42m 37s.xml">
+      <configuration name="TestLeetcode.testLeetcode" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55976000" />
+    <option name="totallyTimeSpent" value="64031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="279" y="1080" width="1440" height="900" extended-state="0" />
@@ -664,9 +727,10 @@
           <url>file://$PROJECT_DIR$/src/test/java/TestLeetcode.java</url>
           <line>19</line>
           <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -699,120 +763,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/DirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[429]N 叉树的层序遍历.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/NaryTreeLevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTreeLevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/MergeTwoSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/ReverseNodesInKGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListCycleII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/DeleteNodeInALinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/ConvertTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/IntersectionOfTwoLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/PalindromeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1029,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestLeetcode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[297]二叉树的序列化与反序列化.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-683">
@@ -1064,11 +1004,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="286">
           <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[98]验证二叉搜索树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[450]删除二叉搜索树中的节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/DeleteNodeInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestLeetcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/DeleteNodeInABst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[230]二叉搜索树中第K小的元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[剑指 Offer 36]二叉搜索树与双向链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/ConvertBinarySearchTreeToSortedDoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/KthSmallestElementInABst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[662]二叉树最大宽度.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="85" column="4" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/MaximunWidthOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/6q/b944c9hj29999l8p_ctyw87m0000gp/T/leetcode/editor/cn/[124]二叉树中的最大路径和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTreeMaximumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
