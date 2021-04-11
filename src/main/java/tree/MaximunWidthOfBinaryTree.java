@@ -14,32 +14,36 @@ public class MaximunWidthOfBinaryTree {
         if(root == null)
             return 0;
 
-        List<Integer> layWidth = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        layWidth.add(1);
-        int index = 0;
+        Deque<WidthNode> queue = new LinkedList<>();
+        queue.offer(new WidthNode(root, 0, 1));
+        int Depth = 0, res = 0, left = 0;
+        while(!queue.isEmpty()){
+            WidthNode curr = queue.poll();
+            if(curr != null){
+                queue.offer(new WidthNode(curr.node.left, curr.depth + 1, curr.position * 2));
+                queue.offer(new WidthNode(curr.node.right, curr.depth + 1, curr.position * 2 + 1));
 
-        while (!queue.isEmpty()){
-            int preLen = layWidth.get(index);
-            int currLen = 0;
-            for(int i=0;i<preLen;i++){
-                TreeNode node = queue.poll();
-                if(node.left != null){
-                    currLen++;
-                    queue.offer(node.left);
-                }
-
-                if(node.right != null){
-                    currLen++;
-                    queue.offer(node.right);
+                if(Depth != curr.depth){
+                    Depth = curr.depth;
+                    left = curr.position;
                 }
             }
-
-            layWidth.add(currLen);
+            res = Math.max(res, curr.position - left + 1);
         }
 
-        return Collections.max(layWidth);
+        return res;
+    }
+
+    class WidthNode{
+        TreeNode node;
+        int depth;
+        int position;
+
+        public WidthNode(TreeNode node, int depth, int position){
+            this.node = node;
+            this.depth = depth;
+            this.position = position;
+        }
     }
 
     List<Integer> layerWidthDFS = new ArrayList<>();

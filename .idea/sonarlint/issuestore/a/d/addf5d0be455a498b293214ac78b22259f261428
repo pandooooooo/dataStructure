@@ -1,7 +1,7 @@
 
-D
-java:S1481")Remove this unused "flag" local variable.(Ö°š·8ÇÛÚíú.
 [	java:S125"<This block of commented-out lines of code should be removed.(Ú²¢úÿÿÿÿ8ÇÛÚíú.
 B
 java:S1481"'Remove this unused "in" local variable.(äÆ¾Ó8ÄèåÇù.
+D
+java:S1481")Remove this unused "flag" local variable.(Ö°š·8ÇÛÚíú.
 S	java:S106"9Replace this use of System.out or System.err by a logger.(§ôúí8ÄèåÇù.

@@ -1,0 +1,7 @@
+
+X
+java:S2259"BA "NullPointerException" could be thrown; "prev" is nullable here.(ÔûÈº
+Z
+java:S2583"DChange this condition so that it does not always evaluate to "false"(§ªèü
+š
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡ÌÙ”ÿÿÿÿÿ

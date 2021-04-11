@@ -1,0 +1,86 @@
+
+\
+java:S1161_":Add the "@Override" annotation above this method signature(£¸òÔøÿÿÿÿ8ÇÆëñƒ/
+c
+java:S2147€"ECombine this catch with the one at line 126, which has the same body.(¯áè8ÇÆëñƒ/
+]
+java:S1161":Add the "@Override" annotation above this method signature(¡‚²”ÿÿÿÿÿ8ÇÆëñƒ/
+X
+java:S1161™":Add the "@Override" annotation above this method signature(ø¦©Ò8ÇÆëñƒ/
+]
+java:S1161‡":Add the "@Override" annotation above this method signature(Ò¬¦Øüÿÿÿÿ8ÇÆëñƒ/
+]
+java:S1161Û":Add the "@Override" annotation above this method signature(ÃŒĞØüÿÿÿÿ8ÇÆëñƒ/
+Ÿ
+java:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á³•ò8ÇÆëñƒ/
+t
+java:S2177t"WRename this method; there is a "private" method in the parent class with the same name.(µ‰üŠ8ÇÆëñƒ/
+]
+java:S1161Ò":Add the "@Override" annotation above this method signature(³Ò‚“ıÿÿÿÿ8ÇÆëñƒ/
+X
+java:S1161¢":Add the "@Override" annotation above this method signature(Ò·ô¼8ÇÆëñƒ/
+]
+java:S1161Â":Add the "@Override" annotation above this method signature(ŠÀ¾öşÿÿÿÿ8ÇÆëñƒ/
+W
+java:S1161˜":Add the "@Override" annotation above this method signature(ƒæÚM8ÇÆëñƒ/
+]
+java:S1161µ":Add the "@Override" annotation above this method signature(Ñ¤À¯üÿÿÿÿ8ÇÆëñƒ/
+X
+java:S1161Ÿ":Add the "@Override" annotation above this method signature(ÂúÕ‚8ÇÆëñƒ/
+X
+java:S1161—":Add the "@Override" annotation above this method signature(éÜÂ–8ÇÆëñƒ/
+c
+java:S2147‚"ECombine this catch with the one at line 126, which has the same body.(Å¡ß8ÇÆëñƒ/
+X
+java:S1161¾":Add the "@Override" annotation above this method signature(‰Ö¥¢8ÇÆëñƒ/
+j
+java:S1192§"LDefine a constant instead of duplicating this literal "testContext" 3 times.(ÆÌ«8ÇÆëñƒ/
+g	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Àó¦ñıÿÿÿÿ8ÇÆëñƒ/
+\
+java:S1161R":Add the "@Override" annotation above this method signature(´œ€ºşÿÿÿÿ8ÇÆëñƒ/
+T
+java:S2696¦"6Make the enclosing method "static" or remove this set.(êÉÎ8ÇÆëñƒ/
+Ÿ
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰©ÂÈ8ÇÆëñƒ/
+W
+java:S1161ì":Add the "@Override" annotation above this method signature(ä¶òq8ÇÆëñƒ/
+]
+java:S1161µ":Add the "@Override" annotation above this method signature(îù¾ƒøÿÿÿÿ8ÇÆëñƒ/
+¤
+java:S1186‡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ò¬¦Øüÿÿÿÿ8ÇÆëñƒ/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢¶ïÜ8ÇÆëñƒ/
+X
+java:S1161Œ":Add the "@Override" annotation above this method signature(¥³Ûá8ÇÆëñƒ/
+Ÿ
+java:S1186—"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éÜÂ–8ÇÆëñƒ/
+X
+java:S1161›":Add the "@Override" annotation above this method signature(‰©ÂÈ8ÇÆëñƒ/
+]
+java:S1161‹":Add the "@Override" annotation above this method signature(«ğ‚ ÿÿÿÿÿ8ÇÆëñƒ/
+]	java:S125$"<This block of commented-out lines of code should be removed.(ÇÀÌîÿÿÿÿÿ8ÇÆëñƒ/
+z
+java:S2177ß"WRename this method; there is a "private" method in the parent class with the same name.(à¹ÄÒüÿÿÿÿ8ÇÆëñƒ/
+W
+java:S1161[":Add the "@Override" annotation above this method signature(Ìí¶ö8ÇÆëñƒ/
+¤
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡‚²”ÿÿÿÿÿ8ÇÆëñƒ/
+W
+java:S1161¥":Add the "@Override" annotation above this method signature(ëıÁ8ÇÆëñƒ/
+X
+java:S1161±":Add the "@Override" annotation above this method signature(î“„Ò8ÇÆëñƒ/
+X
+java:S1161ö":Add the "@Override" annotation above this method signature( ı„8ÇÆëñƒ/
+`
+java:S1155`">Use isEmpty() to check whether the collection is empty or not.(à¿¸úÿÿÿÿ8ÇÆëñƒ/
+]
+java:S1161ª":Add the "@Override" annotation above this method signature(ÙÚ·ïûÿÿÿÿ8ÇÆëñƒ/
+]
+java:S1161Ë":Add the "@Override" annotation above this method signature(Ÿ”¬şÿÿÿÿ8ÇÆëñƒ/
+]
+java:S1161‚":Add the "@Override" annotation above this method signature(ïèİÕùÿÿÿÿ8ÇÆëñƒ/
+Q
+java:S1066/"/Merge this if statement with the enclosing one.(¿ùÇÕûÿÿÿÿ8ÇÆëñƒ/
+X
+java:S1161“":Add the "@Override" annotation above this method signature(á³•ò8ÇÆëñƒ/
+L
+java:S5413ó")Verify that "remove()" is used correctly.(Òà’şùÿÿÿÿ8„Çòƒ/

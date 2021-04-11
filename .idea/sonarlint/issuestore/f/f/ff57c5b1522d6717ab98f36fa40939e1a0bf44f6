@@ -1,0 +1,11 @@
+
+x
+java:S1104"XMake isEndingChar a static final constant or non-public and provide accessors if needed.(úÙ£¦ıÿÿÿÿ8î–Ù·ş.
+t
+java:S1104"TMake children a static final constant or non-public and provide accessors if needed.(¶œšÍøÿÿÿÿ8ò‚Å·ş.
+t
+java:S1104"TMake trieTree a static final constant or non-public and provide accessors if needed.(ıÕ¡ÿÿÿÿÿ8ù·Ã·ş.
+o
+java:S1104"OMake val a static final constant or non-public and provide accessors if needed.(Á½¦ÿÿÿÿÿ8ò‚Å·ş.
+7
+java:S1700"Rename field "trieTree"(ıÕ¡ÿÿÿÿÿ8ù·Ã·ş.

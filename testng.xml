@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameter">
+    <test name="param">
+        <!--<classes>-->
+            <!--<parameter name="annotation" value="parameters"/>-->
+            <!--<parameter name="caseName" value="testParameters"/>-->
+            <!--<class name="com.TestNGAnnotation"/>-->
+        <!--</classes>-->
+        <groups>
+            <run>
+                <!--方法分组测试-->
+                <include name="DataProvider"/>
+                <!--类分组测试-->
+                <include name="ClassGroup"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.TestNGAnnotation"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+</suite>

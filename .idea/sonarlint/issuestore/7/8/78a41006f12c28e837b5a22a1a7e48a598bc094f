@@ -1,5 +1,5 @@
 
-C	java:S108")Either remove or fill this block of code.(ğ¤»®8Ó·Ãìû.
-D
-java:S1481")Remove this unused "flag" local variable.(Ö°š·8Ó·Ãìû.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ8‚×ìû.
+:
+java:S1659"Declare "r" on a separate line.(µÔ›‚8Ü‚è¨Š/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ8Ü‚è¨Š/
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾À¼œ8Ü‚è¨Š/

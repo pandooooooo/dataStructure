@@ -23,12 +23,12 @@ public class ConvertTitle {
             convertTitle(originInput);
         }*/
 
-        String originInput = "https://leetcode-cn.com/problems/intersection-of-two-linked-lists/";
+        String originInput = "https://leetcode-cn.com/problems/invert-binary-tree/";
         convertTitle(originInput);
     }
 
     public static void convertTitle(String originInput){
-        String originTitle = originInput.substring(30);
+        String originTitle = originInput.substring(33);
 
         StringBuilder aimTitle = new StringBuilder();
 
